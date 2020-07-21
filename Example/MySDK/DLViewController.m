@@ -22,6 +22,7 @@
     MySDK *test = [MySDK new];
     test.param1 = @"dasda";
     test.param2 = @"dsada";
+    Dog *dog = [Dog new];
 }
 
 - (void)didReceiveMemoryWarning

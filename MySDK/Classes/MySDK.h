@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MySDK/Person.h>
+#import <MySDK/Dog.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
