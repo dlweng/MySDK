@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "MySDK.h"
+#import "Person.h"
 
 FOUNDATION_EXPORT double MySDKVersionNumber;
 FOUNDATION_EXPORT const unsigned char MySDKVersionString[];

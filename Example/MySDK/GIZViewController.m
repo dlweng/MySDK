@@ -7,6 +7,7 @@
 //
 
 #import "GIZViewController.h"
+#import <MySDK/MySDK.h>
 
 @interface GIZViewController ()
 
@@ -17,7 +18,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+    MySDK *sdk = [MySDK new];
+    sdk.param1 = @"1";
+    sdk.param2 = @"2";
+
+    Person *person = [Person new];
+    person.name = @"name";
 }
 
 - (void)didReceiveMemoryWarning
