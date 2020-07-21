@@ -1,0 +1,23 @@
+{
+  "name": "MySDK",
+  "version": "0.1.0",
+  "summary": "A short description of MySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dlweng/MySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dlweng@gizwits.com": "dlweng@gizwits.com"
+  },
+  "source": {
+    "git": "https://github.com/dlweng@gizwits.com/MySDK.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MySDK/Classes/*",
+  "public_header_files": "MySDK/Classes/*.h"
+}
