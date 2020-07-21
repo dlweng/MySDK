@@ -10,7 +10,3 @@
 #endif
 #endif
 
-
-FOUNDATION_EXPORT double MySDKVersionNumber;
-FOUNDATION_EXPORT const unsigned char MySDKVersionString[];
-

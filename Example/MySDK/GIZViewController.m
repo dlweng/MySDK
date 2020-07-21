@@ -1,28 +1,23 @@
 //
-//  DLViewController.m
+//  GIZViewController.m
 //  MySDK
 //
-//  Created by dlweng@gizwits.com on 07/21/2020.
+//  Created by dlweng@gizwits.com on 07/22/2020.
 //  Copyright (c) 2020 dlweng@gizwits.com. All rights reserved.
 //
 
-#import "DLViewController.h"
-#import <MySDK/MySDK.h>
+#import "GIZViewController.h"
 
-@interface DLViewController ()
+@interface GIZViewController ()
 
 @end
 
-@implementation DLViewController
+@implementation GIZViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    MySDK *test = [MySDK new];
-    test.param1 = @"dasda";
-    test.param2 = @"dsada";
-    Dog *dog = [Dog new];
 }
 
 - (void)didReceiveMemoryWarning
